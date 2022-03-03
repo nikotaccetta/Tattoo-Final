@@ -1,0 +1,346 @@
+* {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+      365deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(../img/Back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Animacion */
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+
+/* Header */
+
+.header__iconod {
+  height: 8vh;
+  width: 8vh;
+}
+
+.header__iconod:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.header__iconoi:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.header__iconoi {
+  height: 8vh;
+  width: 8vh;
+}
+
+/* h1 {
+  font-size: 3rem;
+  color: white;
+  -webkit-text-stroke: 0.2px black;
+  font-family: "Redressed", cursive;
+  margin: 0;  
+} */
+
+h1 {
+  font-size: calc(20px + 18vh);
+  line-height: calc(20px + 20vh);
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: yellow;
+  font-family: "Redressed", cursive;
+  text-align: center;
+  animation: blink 4s infinite;
+  -webkit-animation: blink 4s infinite;
+}
+
+@-webkit-keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blink {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    text-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+header a {
+  text-decoration: none;
+}
+
+/* Navbar */
+nav a {
+  font-size: 1.2rem;
+  margin: 0 0.7rem;
+  transition: all 2s ease-out;
+}
+
+nav a:hover {
+  transform: scale(1.05);
+  color: yellow !important;
+  text-shadow: 0 0 10px #ffa500;
+}
+
+.custom_nav {
+  color: yellow !important;
+  text-shadow: 0 0 10px #ffa500;
+}
+
+/* Main  */
+
+main {
+  height: 73vh;
+}
+
+
+main h2 {
+  font-size: 5vh;  
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: yellow;
+  font-family: "Redressed", cursive;  
+  animation: blink 4s infinite;
+  -webkit-animation: blink 4s infinite;
+}
+
+.custom__hr {
+  border: 1px solid yellow !important;
+  box-shadow: 0 0 5px 0 #ffa500, 0 0 15px 0 #ffa500, 0 0 20px 0 #ffa500, 0 0 40px 0 #ffa500, 0 0 60px 0 #ff0000, 0 0 10px 0 #ff8d00, 0 0 98px 0 #ff0000;
+  animation: blinkbox 4s infinite;
+  -webkit-animation: blinkbox 4s infinite;
+  opacity: 1 !important;
+
+}
+
+@-webkit-keyframes blinkbox {
+  20%,
+  24%,
+  55% {
+    border: #111;
+    box-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+@keyframes blinkbox {
+  20%,
+  24%,
+  55% {
+    color: #111;
+    box-shadow: none;
+  }
+
+  0%,
+  19%,
+  21%,
+  23%,
+  25%,
+  54%,
+  56%,
+  100% {
+  box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+  }
+}
+
+
+main img {
+  max-width: -webkit-fill-available;
+}
+
+main img,
+.custom_p {
+  box-shadow: 0 0 20px 0 black;
+}
+
+/* TRABAJOS */
+
+/* Imagen */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;  
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.custom_card {
+  width: 280px;
+  height: 360px;
+  border-radius: 15px;
+  padding: 1.5rem;
+  background: white;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+.custom_card:hover {
+  transform: translateY(20px);
+}
+.custom_card:hover:before {
+  opacity: 1;
+}
+.custom_card:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.custom_card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+.custom_card img {
+  width: 100%;
+  height: 100%; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 15px;
+}
+.custom_card .info {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+.custom_card .info h1 {
+  margin: 0px;
+}
+.custom_card .info p {
+  letter-spacing: 1px;
+  font-size: 15px;
+  margin-top: 8px;
+}
+.custom_card .info button {
+  padding: 0.6rem;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.custom_card .info button:hover {
+  background: dodgerblue;
+  color: white;
+}
+
+/* Form */
+
+/* option {
+    background-color: rgba(0, 0, 0, 0.9); !important
+    color: black; !important
+} */
+
+/* Footer */
+.footer a img:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+.footer a img {
+  height: 5vh;
+  width: 5vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  filter: invert(100%);
+  transition: all 0.5s ease-in-out;
+}
