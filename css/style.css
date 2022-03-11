@@ -162,7 +162,7 @@ nav a:hover {
 /* Main  */
 
 main {
-  height: 73vh;
+  height: 75vh;
 }
 
 
@@ -240,7 +240,12 @@ main img,
 
 /* Imagen */
 
-.wrapper {
+.trabajos {
+  height: 90vh;
+}
+
+
+.wrapper {  
   display: flex;
   flex-wrap: wrap;  
   gap: 2rem;
