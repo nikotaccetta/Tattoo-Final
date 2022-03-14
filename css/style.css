@@ -76,18 +76,12 @@ body {
   width: 8vh;
 }
 
-/* h1 {
-  font-size: 3rem;
-  color: white;
-  -webkit-text-stroke: 0.2px black;
-  font-family: "Redressed", cursive;
-  margin: 0;  
-} */
 
 h1 {
   font-size: calc(20px + 18vh);
   line-height: calc(20px + 20vh);
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
   color: yellow;
   font-family: "Redressed", cursive;
   text-align: center;
@@ -111,7 +105,8 @@ h1 {
   54%,
   56%,
   100% {
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
@@ -132,7 +127,8 @@ h1 {
   54%,
   56%,
   100% {
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
@@ -161,27 +157,24 @@ nav a:hover {
 
 /* Main  */
 
-/* main {
-  height: 75vh;
-} */
-
-
 main h2 {
-  font-size: 5vh;  
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  font-size: 5vh;
+  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
   color: yellow;
-  font-family: "Redressed", cursive;  
+  font-family: "Redressed", cursive;
   animation: blink 4s infinite;
   -webkit-animation: blink 4s infinite;
 }
 
 .custom__hr {
   border: 1px solid yellow !important;
-  box-shadow: 0 0 5px 0 #ffa500, 0 0 15px 0 #ffa500, 0 0 20px 0 #ffa500, 0 0 40px 0 #ffa500, 0 0 60px 0 #ff0000, 0 0 10px 0 #ff8d00, 0 0 98px 0 #ff0000;
+  box-shadow: 0 0 5px 0 #ffa500, 0 0 15px 0 #ffa500, 0 0 20px 0 #ffa500,
+    0 0 40px 0 #ffa500, 0 0 60px 0 #ff0000, 0 0 10px 0 #ff8d00,
+    0 0 98px 0 #ff0000;
   animation: blinkbox 4s infinite;
   -webkit-animation: blinkbox 4s infinite;
   opacity: 1 !important;
-
 }
 
 @-webkit-keyframes blinkbox {
@@ -200,7 +193,8 @@ main h2 {
   54%,
   56%,
   100% {
-  box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
@@ -221,11 +215,11 @@ main h2 {
   54%,
   56%,
   100% {
-  box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    box-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
+      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
     color: #fff6a9;
   }
 }
-
 
 main img {
   max-width: -webkit-fill-available;
@@ -240,14 +234,9 @@ main img,
 
 /* Imagen */
 
-/* .trabajos {
-  height: 150vh;
-} */
-
-
-.wrapper {  
+.wrapper {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   gap: 2rem;
   justify-content: space-around;
 }
@@ -290,7 +279,7 @@ main img,
 }
 .custom_card img {
   width: 100%;
-  height: 100%; 
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -323,17 +312,11 @@ main img,
   cursor: pointer;
   transition: 0.4s ease;
 }
+
 .custom_card .info button:hover {
-  background: dodgerblue;
-  color: white;
+  background: yellow;
+  color: black;
 }
-
-/* Form */
-
-/* option {
-    background-color: rgba(0, 0, 0, 0.9); !important
-    color: black; !important
-} */
 
 /* Footer */
 .footer a img:hover {
