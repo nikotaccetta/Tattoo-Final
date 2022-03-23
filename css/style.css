@@ -230,6 +230,10 @@ main img,
   box-shadow: 0 0 20px 0 black;
 }
 
+.custom_p {
+  font-size: 24px;
+}
+
 /* TRABAJOS */
 
 /* Imagen */
@@ -317,6 +321,7 @@ main img,
   background: yellow;
   color: black;
 }
+
 
 /* Footer */
 .footer a img:hover {
